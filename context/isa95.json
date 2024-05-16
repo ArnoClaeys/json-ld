@@ -1,0 +1,16 @@
+{
+    "@context": {
+        "isa95": "http://rdf.isye.be/isa95#",
+        "Person": "isa95:Person",
+        "id": "isa95:id",
+        "version": "isa95:version",
+        "label": { "@id": "isa95:label", "@container": "@language" },
+        "description": { "@id": "isa95:description", "@container": "@language" },
+        "name": "isa95:name",
+        "data": "isa95:data",
+        "class": { "@id": "isa95:class", "@type": "@id" },
+        "property": { "@id": "isa95:property", "@type": "isa95:PropertyValue" },
+        "value": "isa95:value",
+        "unitOfMeasure": "isa95:unitOfMeasure"
+    }
+}
